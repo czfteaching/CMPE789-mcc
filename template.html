@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--
+  ===========================================================================
+  PAGE TEMPLATE — copy this file to make a new page.
+
+  To add a page, e.g. "Assignments":
+    1. cp template.html assignments.html
+    2. Edit <title>, the <meta name="description">, .page-title, .page-subtitle.
+    3. Add   <a href="assignments.html">Assignments</a>   to the <nav> block in
+       index.html, syllabus.html, schedule.html AND this template, so every page
+       links to it. Give it class="is-current" on its own page only.
+    4. Write the content inside <main>. Delete the example blocks you don't use.
+
+  All styling lives in assets/style.css — there is no build step. Open the .html
+  file in a browser to preview, and push to the repo to publish.
+  ===========================================================================
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page Title &middot; CMPE 789: Modern Cloud Computing</title>
+<meta name="description" content="One-sentence description of this page, used by search engines.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#content">Skip to content</a>
+
+<!-- ===== Header: identical on every page. Copy as-is; only change which nav
+     link carries class="is-current". ===== -->
+<header class="site-header">
+  <div class="wrap">
+    <p class="eyebrow">CMPE 789 &middot; Fall 2025 &middot; Rochester Institute of Technology</p>
+    <h1 class="site-title"><a href="index.html">Modern Cloud Computing</a></h1>
+    <!-- <p class="site-tagline">
+      A graduate special-topics course on the design and development principles
+      behind modern cloud computing systems.
+    </p> -->
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="syllabus.html">Syllabus</a>
+      <a href="schedule.html">Schedule</a>
+      <!-- Add new pages here. Mark the current page: class="is-current" -->
+      <a class="nav-right" href="https://github.com/czfteaching/CMPE789-mcc">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== Content =====
+     Add class="page--wide" to <main> for pages built around a wide table
+     (schedule.html does this). ===== -->
+<main id="content" class="wrap page">
+
+  <h1 class="page-title">Page Title</h1>
+  <p class="page-subtitle">Optional one-line subtitle.</p>
+
+  <h2>A section heading</h2>
+
+  <p>
+    Body text. Use <a href="index.html">links</a>, <strong>bold</strong>,
+    <em>italics</em>, and <code>inline code</code> as normal.
+  </p>
+
+  <h3>A subsection heading</h3>
+
+  <ul>
+    <li>Bulleted list item</li>
+    <li>Another item</li>
+  </ul>
+
+  <ol>
+    <li>Numbered list item</li>
+    <li>Another item</li>
+  </ol>
+
+
+  <!-- ===== Reusable block: table =====
+       Always keep the .table-scroll wrapper — it lets wide tables scroll on
+       phones instead of stretching the whole page. -->
+  <h2>A table</h2>
+
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr><th>Column</th><th>Another column</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Value</td><td>Value</td></tr>
+      <tr><td>Value</td><td>Value</td></tr>
+      <!-- class="is-break" greys out a row (used for breaks in the schedule) -->
+      <tr class="is-break"><td>Value</td><td>No class</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+
+  <!-- ===== Reusable block: highlighted note ===== -->
+  <div class="callout">
+    <p>
+      <strong>Note.</strong> Use a callout to draw attention to a deadline,
+      policy, or anything students shouldn't miss.
+    </p>
+  </div>
+
+
+  <!-- ===== Reusable block: key/value facts grid ===== -->
+  <dl class="factbox">
+    <div><dt>Label</dt><dd>Value</dd></div>
+    <div><dt>Label</dt><dd>Value</dd></div>
+    <div><dt>Label</dt><dd>Value</dd></div>
+  </dl>
+
+
+  <!-- ===== Reusable block: linked cards ===== -->
+  <ul class="cards">
+    <li><a class="card" href="syllabus.html">
+      <h3>Card title <span class="arrow">&rarr;</span></h3>
+      <p>One or two lines describing where this card goes.</p>
+    </a></li>
+    <li><a class="card" href="schedule.html">
+      <h3>Card title <span class="arrow">&rarr;</span></h3>
+      <p>One or two lines describing where this card goes.</p>
+    </a></li>
+  </ul>
+
+
+  <!-- ===== Reusable block: code sample ===== -->
+  <pre><code>$ echo "preformatted code block"</code></pre>
+
+
+  <!-- ===== Reusable block: quote / aside ===== -->
+  <blockquote>
+    <p>A quotation or an aside.</p>
+  </blockquote>
+
+</main>
+
+<!-- ===== Footer: identical on every page. Copy as-is. ===== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>CMPE 789: Special Topics — Modern Cloud Computing</strong> &middot; Fall 2025</p>
+    <p class="muted">
+      Chongzhou Fang (<a href="mailto:cxfeec@rit.edu">cxfeec@rit.edu</a>) &middot;
+      Rochester Institute of Technology &middot;
+      Source on <a href="https://github.com/czfteaching/CMPE789-mcc">GitHub</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

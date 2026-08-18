@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schedule &middot; CMPE 789: Modern Cloud Computing</title>
+<meta name="description" content="Week-by-week lecture schedule, readings, and deadlines for CMPE 789 Modern Cloud Computing at RIT, Fall 2025.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#content">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="eyebrow">CMPE 789 &middot; Fall 2025 &middot; Rochester Institute of Technology</p>
+    <h1 class="site-title"><a href="index.html">Modern Cloud Computing</a></h1>
+    <!-- <p class="site-tagline">
+      A graduate special-topics course on the design and development principles
+      behind modern cloud computing systems.
+    </p> -->
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="syllabus.html">Syllabus</a>
+      <a class="is-current" href="schedule.html">Schedule</a>
+      <a class="nav-right" href="https://github.com/czfteaching/CMPE789-mcc">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main id="content" class="wrap page page--wide">
+
+  <h1 class="page-title">Schedule</h1>
+  <p class="page-subtitle">Tentative — topics, readings, and deadlines are subject to change.</p>
+
+  <h2>Tentative schedule</h2>
+
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th class="col-narrow">Week</th>
+        <th class="col-narrow">Lecture</th>
+        <th class="col-narrow">Date</th>
+        <th>Topic</th>
+        <th>Reference</th>
+        <th>Assignment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td><td>Lec 1</td><td>8/25</td>
+        <td>Introduction to Cloud Computing</td>
+        <td>Ch. 1 &amp; Ch. 2, <a href="https://csrc.nist.gov/pubs/sp/800/145/final">The NIST Definition of Cloud Computing</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 2</td><td>8/27</td>
+        <td>Concurrency and Parallelism</td>
+        <td>Ch. 3 &amp; Ch. 4</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td><td>Lec 3</td><td>9/1</td>
+        <td>Cloud Networks</td>
+        <td>Ch. 5</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 4</td><td>9/3</td>
+        <td>Data Storage</td>
+        <td>Ch. 6</td>
+        <td>HW 1 released; Semester project team formation due</td>
+      </tr>
+      <tr>
+        <td>3</td><td>Lec 5</td><td>9/8</td>
+        <td>Cloud HW &amp; SW</td>
+        <td>Ch. 8</td>
+        <td>Quiz 1</td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 6</td><td>9/10</td>
+        <td>Delivery Model I: IaaS, PaaS</td>
+        <td>
+          <a href="https://www.ibm.com/think/topics/iaas-paas-saas">IBM</a>,
+          <a href="https://cloud.google.com/learn/paas-vs-iaas-vs-saas">Google</a>,
+          <a href="https://learn.microsoft.com/en-us/training/modules/describe-cloud-service-types/">Microsoft Learn</a>,
+          <a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-292.pdf">NIST Cloud Computing Reference Architecture</a>,
+          <a href="https://docs.redhat.com/en/documentation/red_hat_openstack_platform/8/html/architecture_guide/index">RedHat OpenStack Doc</a>,
+          <a href="https://www.omg.org/cloud/deliverables/CSCC-Practical-Guide-to-PaaS.pdf">Practical Guide to PaaS</a>,
+          <a href="https://docs.cloudfoundry.org/#read-the-docs">Cloud Foundry Doc</a>
+        </td>
+        <td>Semester project idea approval due; HW 1 due, HW 2 released</td>
+      </tr>
+      <tr>
+        <td>4</td><td>Lec 7</td><td>9/15</td>
+        <td>Delivery Model II: SaaS, FaaS</td>
+        <td>
+          <a href="https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/saas-lens.html">AWS SaaS Lens</a>,
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3570156">SaaS Survey</a>,
+          <a href="https://docs.aws.amazon.com/pdfs/lambda/latest/dg/lambda-dg.pdf">AWS Lambda Doc (p11–p53)</a>,
+          <a href="https://dl.acm.org/doi/pdf/10.1145/3508360">FaaS Survey</a>,
+          <a href="https://www.usenix.org/system/files/nsdi20-paper-agache.pdf">Firecracker paper</a>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 8</td><td>9/17</td>
+        <td>Resource Management &amp; Scheduling I</td>
+        <td>Ch. 9</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td><td>Lec 9</td><td>9/22</td>
+        <td>Resource Management &amp; Scheduling II</td>
+        <td>
+          Selected papers:
+          <a href="https://dl.acm.org/doi/abs/10.1145/1629575.1629601">Quincy</a>,
+          <a href="https://dl.acm.org/doi/abs/10.1145/1755913.1755940">Delay Scheduling</a>,
+          <a href="https://www.usenix.org/legacy/event/nsdi11/tech/full_papers/Hindman.pdf">Mesos</a>,
+          <a href="https://dl.acm.org/doi/abs/10.1145/2465351.2465386">Omega</a>,
+          <a href="https://dl.acm.org/doi/abs/10.1145/2517349.2522716">Sparrow</a>,
+          <a href="https://dl.acm.org/doi/10.1145/2741948.2741964">Borg</a>
+        </td>
+        <td>Quiz 2</td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 10</td><td>9/24</td>
+        <td>Resource Virtualization I</td>
+        <td><a href="https://link.springer.com/book/10.1007/978-3-031-01753-7">Hardware and Software Support for Virtualization</a></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>6</td><td>Lec 11</td><td>9/29</td>
+        <td>Resource Virtualization II</td>
+        <td>Ch. 10</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 12</td><td>10/1</td>
+        <td>Cloud Security</td>
+        <td>Ch. 11</td>
+        <td>HW 2 due, HW 3 released</td>
+      </tr>
+      <tr>
+        <td>7</td><td>Lec 13</td><td>10/6</td>
+        <td>Cloud Applications I</td>
+        <td>Ch. 7</td>
+        <td>Quiz 3</td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 14</td><td>10/8</td>
+        <td>Cloud Applications II: Performance Optimization</td>
+        <td>
+          <a href="https://docs.aws.amazon.com/wellarchitected/latest/performance-efficiency-pillar/welcome.html">AWS</a>,
+          <a href="https://docs.cloud.google.com/architecture/framework/performance-optimization">Google</a>,
+          <a href="https://12factor.net/">The Twelve-Factor App</a>
+        </td>
+        <td></td>
+      </tr>
+      <tr class="is-break">
+        <td>8</td><td></td><td>10/13</td>
+        <td>October Break, No Class</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 15</td><td>10/15</td>
+        <td>Project Presentation: Proposal and Preliminary Results</td>
+        <td></td>
+        <td>HW 3 due, HW 4 released; Project proposal due</td>
+      </tr>
+      <tr>
+        <td>9</td><td>Lec 16</td><td>10/20</td>
+        <td>Advanced Topic: Heterogeneous Computing in Cloud I</td>
+        <td>Selected papers: TBD</td>
+        <td>Quiz 4; HW 5 released</td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 17</td><td>10/22</td>
+        <td>Advanced Topic: Heterogeneous Computing in Cloud II</td>
+        <td>Selected papers: TBD</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>10</td><td>Lec 18</td><td>10/27</td>
+        <td>Advanced Topic: Modern Resource Scheduling I</td>
+        <td>Selected papers: TBD</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 19</td><td>10/29</td>
+        <td>Advanced Topic: Modern Resource Scheduling II</td>
+        <td>Selected papers: TBD</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>11</td><td>Lec 20</td><td>11/3</td>
+        <td>Advanced Topic: ML in Cloud I</td>
+        <td>Selected papers: TBD</td>
+        <td>Quiz 5</td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 21</td><td>11/5</td>
+        <td>Advanced Topic: ML in Cloud II</td>
+        <td>Selected papers: TBD</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>12</td><td>Lec 22</td><td>11/10</td>
+        <td>Advanced Topic: Cloud and IoT</td>
+        <td>Selected papers: TBD</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 23</td><td>11/12</td>
+        <td>Advanced Topic: Cloud Security I</td>
+        <td>Selected papers: TBD</td>
+        <td>Project checkpoint report due</td>
+      </tr>
+      <tr>
+        <td>13</td><td>Lec 24</td><td>11/17</td>
+        <td>Advanced Topic: Cloud Security II</td>
+        <td>Selected papers: TBD</td>
+        <td>Quiz 6</td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 25</td><td>11/19</td>
+        <td>Advanced Topic: Future Cloud Infrastructure</td>
+        <td>Selected papers: TBD</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>14</td><td>Lec 26</td><td>11/24</td>
+        <td>Advanced Topic: Cloud in the Agentic-AI Era</td>
+        <td>Selected papers: TBD</td>
+        <td>HW 5 due</td>
+      </tr>
+      <tr class="is-break">
+        <td></td><td></td><td>11/26</td>
+        <td>Thanksgiving Break, No Class</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>15</td><td>Lec 27</td><td>12/1</td>
+        <td>Semester Project Presentation I</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td><td>Lec 28</td><td>12/3</td>
+        <td>Semester Project Presentation II</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>16</td><td></td><td>12/7</td>
+        <td><em>End of Instruction Day</em></td>
+        <td></td>
+        <td>Project report due</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Chapter references are to <em>Cloud Computing: Theory and Practice</em>, 2nd Edition.</p>
+
+  <h2>Important dates</h2>
+
+  <div class="table-scroll">
+  <table>
+    <thead>
+      <tr><th>Date</th><th>Event</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>8/25</td><td>First day of class</td></tr>
+      <tr><td>9/3</td><td>Semester project team formation</td></tr>
+      <tr><td>9/10</td><td>Semester project idea approval</td></tr>
+      <tr><td>10/15</td><td>Semester project proposal</td></tr>
+      <tr><td>11/12</td><td>Semester project checkpoint report</td></tr>
+      <tr><td>12/1 – 12/3</td><td>Semester project presentation</td></tr>
+      <tr><td>12/7</td><td>Semester project report</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>CMPE 789: Special Topics — Modern Cloud Computing</strong> &middot; Fall 2025</p>
+    <p class="muted">
+      Chongzhou Fang (<a href="mailto:cxfeec@rit.edu">cxfeec@rit.edu</a>) &middot;
+      Rochester Institute of Technology &middot;
+      Source on <a href="https://github.com/czfteaching/CMPE789-mcc">GitHub</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
