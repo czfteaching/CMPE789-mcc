@@ -33,11 +33,11 @@
   <h1 class="page-title">Reading List</h1>
   <p class="page-subtitle">Papers and references for the <strong>Advanced Topics</strong> lectures (Weeks 9&ndash;14).</p>
 
-  <div class="callout">
+  <!-- <div class="callout">
     <p>
       <strong>Coming soon...</strong> 
     </p>
-  </div>
+  </div> -->
 
 
   <h2>Topics</h2>
@@ -46,8 +46,8 @@
     <li><a href="#heterogeneous">Heterogeneous Computing in Cloud</a> &mdash; Lec 16&ndash;17</li>
     <li><a href="#scheduling">Modern Resource Scheduling</a> &mdash; Lec 18&ndash;19</li>
     <li><a href="#ml">ML in Cloud</a> &mdash; Lec 20&ndash;21</li>
-    <li><a href="#iot">Cloud and IoT</a> &mdash; Lec 22</li>
-    <li><a href="#security">Cloud Security</a> &mdash; Lec 23&ndash;24</li>
+    <li><a href="#iot">Cloud and IoT</a> &mdash; Lec 22&ndash;23</li>
+    <li><a href="#security">Cloud Security</a> &mdash; Lec 24</li>
     <li><a href="#infrastructure">Future Cloud Infrastructure</a> &mdash; Lec 25</li>
     <li><a href="#agentic">Cloud in the Agentic-AI Era</a> &mdash; Lec 26</li>
   </ul>
@@ -66,19 +66,19 @@
     
     
     <p><b>Student Presentation:</b></p>
-    <li>Khawaja, Ahmed, et al. "Sharing, protection, and compatibility for reconfigurable fabric with AmorphOS." 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18). 2018.</li>
-    <li>Jeon, Myeongjae, et al. "Analysis of Large-Scale Multi-Tenant GPU clusters for DNN training workloads." 2019 USENIX Annual Technical Conference (USENIX ATC 19). 2019.</li>
+    <li>Khawaja, Ahmed, et al. "Sharing, protection, and compatibility for reconfigurable fabric with AmorphOS." OSDI 18.</li>
+    <li>Jeon, Myeongjae, et al. "Analysis of Large-Scale Multi-Tenant GPU clusters for DNN training workloads." USENIX ATC 19.</li>
   </ul>
   <h3>Lec 17</h3>
   <ul>
     <p><b>Lecture:</b></p>
-    <li>Li, Suyi, et al. "Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba (Operational Systems)." 20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26). 2026.</li>
-    <li>Yang, Lingyun, et al. "GPU-Disaggregated serving for deep learning recommendation models at scale." 22nd USENIX Symposium on Networked Systems Design and Implementation (NSDI 25). 2025.</li>
+    <li>Li, Suyi, et al. "Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba (Operational Systems)." OSDI 26.</li>
+    <li>Yang, Lingyun, et al. "GPU-Disaggregated serving for deep learning recommendation models at scale." NSDI 25.</li>
 
     <p><b>Student Presentation:</b></p>
-    <li>Chen, Jiyang, et al. "μShell: A Microkernel-based FPGA Shell Architecture." 20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26). 2026.</li>
-    <li>Hei, Chenyang, et al. "HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters." 23rd USENIX Symposium on Networked Systems Design and Implementation (NSDI 26). 2026.</li>
-    <li><i>(Optional)</i> He, Congjie, et al. "WaferLLM: Large language model inference at wafer scale." 19th USENIX Symposium on Operating Systems Design and Implementation (OSDI 25). 2025.</li>
+    <li>Chen, Jiyang, et al. "μShell: A Microkernel-based FPGA Shell Architecture." OSDI 26.</li>
+    <li>Hei, Chenyang, et al. "HeteCCL: Synthesizing Near-Optimal Collective Communication Schedules for Heterogeneous GPU Clusters." NSDI 26.</li>
+    <li>He, Congjie, et al. "WaferLLM: Large language model inference at wafer scale." OSDI 25.</li>
   </ul>
 
 
@@ -89,76 +89,119 @@
   <h3>Lec 18</h3>
   <ul>
     <p><b>Lecture:</b></p>
-    <li>Tang, Chunqiang, et al. "Twine: A unified cluster management system for shared infrastructure." 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20). 2020.</li>
-    <li>Rzadca, Krzysztof, et al. "Autopilot: workload autoscaling at google." proceedings of the fifteenth european conference on computer systems. 2020.</li>
+    <li>Tang, Chunqiang, et al. "Twine: A unified cluster management system for shared infrastructure." OSDI 20.</li>
+    <li>Rzadca, Krzysztof, et al. "Autopilot: workload autoscaling at google." EuroSys 20.</li>
     <p><b>Student Presentation:</b></p>
-    <li>Cortez, Eli, et al. "Resource central: Understanding and predicting workloads for improved resource management in large cloud platforms." Proceedings of the 26th symposium on operating systems principles. 2017.</li>
-    <li>Gog, Ionel, et al. "Firmament: Fast, centralized cluster scheduling at scale." 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16). 2016.</li>
+    <li>Cortez, Eli, et al. "Resource central: Understanding and predicting workloads for improved resource management in large cloud platforms." SOSP 17.</li>
+    <li>Gog, Ionel, et al. "Firmament: Fast, centralized cluster scheduling at scale." OSDI 16.</li>
   </ul>
   <h3>Lec 19</h3>
   <ul>
     <p><b>Lecture:</b></p>
-    <li>Chai, Xiaohu, et al. "Fork in the road: Reflections and optimizations for cold start latency in production serverless systems." 19th USENIX Symposium on Operating Systems Design and Implementation (OSDI 25). 2025.</li>
-    <li>Zhang, Zhengtong, et al. "DVLA: Dynamic {VM} Lifetime Aware Scheduling for Drifting Lifetime Distributions and Long-Lived VM Placement Debt (Operational Systems)." 20th USENIX Symposium on Operating Systems Design and Implementation (OSDI 26). 2026.</li>
+    <li>Chai, Xiaohu, et al. "Fork in the road: Reflections and optimizations for cold start latency in production serverless systems." OSDI 25.</li>
+    <li>Zhang, Zhengtong, et al. "DVLA: Dynamic VM Lifetime Aware Scheduling for Drifting Lifetime Distributions and Long-Lived VM Placement Debt (Operational Systems)." OSDI 26.</li>
     <p><b>Student Presentation:</b></p>
-    <li>Liu, Qingyuan, et al. "Harmonizing efficiency and practicability: Optimizing resource utilization in serverless computing with jiagu." 2024 USENIX Annual Technical Conference (USENIX ATC 24). 2024.</li>
-    <li>Fu, Yuqi, et al. "ALPS: An Adaptive Learning, Priority OS Scheduler for Serverless Functions." 2024 USENIX Annual Technical Conference (USENIX ATC 24). 2024.</li>
+    <li>Liu, Qingyuan, et al. "Harmonizing efficiency and practicability: Optimizing resource utilization in serverless computing with jiagu." ATC 24.</li>
+    <li>Fu, Yuqi, et al. "ALPS: An Adaptive Learning, Priority OS Scheduler for Serverless Functions." ATC 24.</li>
   </ul>
 
 
   <h2 id="ml">ML in Cloud</h2>
-  <p class="lede">Lec 20&ndash;21 &middot; 11/3 &amp; 11/5 &mdash; </p>
+  <p class="lede">Lec 20&ndash;21 &middot; 11/3 &amp; 11/5 </p>
 
   <h3>Lec 20</h3>
   <ul>
     <p><b>Lecture:</b></p>
+    <li>Qiao, Aurick, et al. "Pollux: Co-adaptive cluster scheduling for goodput-optimized deep learning." OSDI 21.</li>
+    <li>Xiao, Wencong, et al. "Gandiva: Introspective cluster scheduling for deep learning." OSDI 18.</li>
     <p><b>Student Presentation:</b></p>
-    <li>Xiao, Wencong, et al. "AntMan: Dynamic scaling on GPU clusters for deep learning." 14th USENIX Symposium on Operating Systems Design and Implementation (OSDI 20). 2020.</li>
-    <li>Weng, Qizhen, et al. "MLaaS in the wild: Workload analysis and scheduling in Large-Scale heterogeneous GPU clusters." 19th USENIX symposium on networked systems design and implementation (NSDI 22). 2022.</li>
+    <li>Xiao, Wencong, et al. "AntMan: Dynamic scaling on GPU clusters for deep learning." OSDI 20.</li>
+    <li>Weng, Qizhen, et al. "MLaaS in the wild: Workload analysis and scheduling in Large-Scale heterogeneous GPU clusters." NSDI 22.</li>
   </ul>
 
   <h3>Lec 21</h3>
   <ul>
     <p><b>Lecture:</b></p>
     
-    <p><b>Student Presentation:</b></p>
+    <li>Xie, Zhiqiang, et al. "Strata: Hierarchical context caching for long context language model serving." OSDI 26.</li>
+    <li>Kwon, Woosuk, et al. "Efficient memory management for large language model serving with paged attention." SOSP 23.</li>
     
+    <p><b>Student Presentation:</b></p>
+    <li>Khare, Alind, et al. "SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads." NSDI 25.</li>
+    <li>Wu, Bingyang, et al. "FastServe: Iteration-Level Preemptive Scheduling for Large Language Model Inference." NSDI 26.</li>
   </ul>
 
 
   <h2 id="iot">Cloud and IoT</h2>
-  <p class="lede">Lec 22 &middot; 11/10 &mdash; </p>
-
-    <h3>Papers</h3>
+  <p class="lede">Lec 22&ndash;23 &middot; 11/10 &amp; 11/12 </p>
+ <h3>Lec 22</h3>
   <ul>
-    <li class="muted">To be posted.</li>
+    <p><b>Lecture:</b></p>
+    <li>Cuervo, Eduardo, et al. "Maui: making smartphones last longer with code offload." MobiSys 10.</li>
+    
+    <li>Gordon, Mark S., et al. "COMET: Code offload by migrating execution transparently." OSDI 12.</li>
+
+    <p><b>Student Presentation:</b></p>
+    <li>Chun, Byung-Gon, et al. "Clonecloud: elastic execution between mobile device and cloud." EuroSys 11.</li>
+    <li>Cuervo, Eduardo, et al. "Kahawai: High-quality mobile gaming using gpu offload." MobiSys 15.</li>
+  </ul>
+  <h3>Lec 23</h3>
+  <ul>
+    <p><b>Lecture:</b></p>
+    <li>Kang, Yiping, et al. 2017. "Neurosurgeon: Collaborative Intelligence Between the Cloud and Mobile Edge." ASPLOS 17.</li>
+    <li>Shen, Zheyu, et al. "Edgelora: An efficient multi-tenant llm serving system on edge devices." MobiSys 25.</li>
+    <p><b>Student Presentation:</b></p>
+    <li>Sen, Tanmoy, Haiying Shen, and Anand Padmanabha Iyer. "Flex: Fast, accurate DNN inference on low-cost edges using heterogeneous accelerator execution." EuroSys 25.</li>
+    <li>Prakash, Shvetank, et al. "Lifetime-Aware Design for Item-Level Intelligence at the Extreme Edge." ASPLOS 26.</li>
   </ul>
 
 
   <h2 id="security">Cloud Security</h2>
-  <p class="lede">Lec 23&ndash;24 &middot; 11/12 &amp; 11/17 &mdash; </p>
+  <p class="lede">Lec 24 &middot; 11/17 </p>
 
-    <h3>Papers</h3>
+    <h3>Lec 24</h3>
   <ul>
-    <li class="muted">To be posted.</li>
+    <p><b>Lecture:</b></p>
+    <li>Ristenpart, Thomas, et al. "Hey, you, get off of my cloud: exploring information leakage in third-party compute clouds." CCS 09.</li>
+    <li>Baumann, Andrew, et al. "Shielding Applications from an Untrusted Cloud with Haven." OSDI 14.</li>
+    <li>Shi, Jiacheng, et al. "Serverless functions made confidential and efficient with split containers." USENIX Security 25.</li>
+    <p><b>Student Presentation:</b></p>
+    <li>Zhao, Zirui, et al. "Everywhere all at once: Co-location attacks on public cloud FaaS." ASPLOS 24.</li>
+    <li>Wang, Shiwen, et al. "Enjoy the Free Lunch, Someone Paid for Us: Escaping Resource Limits of MicroVM-based Containers." USENIX Security 26.</li>
+    <li>Liu, Xunqi, et al. "The Dark Side of Flexibility: Detecting Risky Permission Chaining Attacks in Serverless Applications." NDSS 26.</li>
+
   </ul>
 
 
   <h2 id="infrastructure">Future Cloud Infrastructure</h2>
   <p class="lede">Lec 25 &middot; 11/19 &mdash; </p>
 
-    <h3>Papers</h3>
+    <h3>Lec 25</h3>
   <ul>
-    <li class="muted">To be posted.</li>
+    <p><b>Lecture:</b></p>
+    <li>Kuchler, Tom, et al. "Unlocking true elasticity for the cloud-native era with dandelion." SOSP 25.</li>
+    <li>Ruan, Zhenyuan, et al. "Quicksand: Harnessing stranded datacenter resources with granular computing." NSDI 25.</li>
+    <li>Li, Quanxi, et al. "Beehive: A scalable disaggregated memory runtime exploiting asynchrony of multithreaded programs." NSDI 25.</li>
+    <p><b>Student Presentation:</b></p>
+    <li>Qiu, Ziyue, et al. "Moirai: Optimizing Placement of Data and Compute in Hybrid Clouds." SOSP 25.</li>
+    <li>Lou, Chiheng, et al. "HydraServe: Minimizing Cold Start Latency for Serverless LLM Serving in Public Clouds." NSDI 26.</li>
+    <li>Yi, Shushu, et al. "Espresso: Constructing Cost-Efficient CXL JBOF via Inter-SSD Computing Resource Sharing." OSDI 26.</li>
   </ul>
 
 
   <h2 id="agentic">Cloud in the Agentic-AI Era</h2>
-  <p class="lede">Lec 26 &middot; 11/24 &mdash; </p>
+  <p class="lede">Lec 26 &middot; 11/24</p>
 
-    <h3>Papers</h3>
+     <h3>Lec 26</h3>
   <ul>
-    <li class="muted">To be posted.</li>
+    <p><b>Lecture:</b></p>
+    <li>Chaudhry, Gohar Irfan, et al. "Murakkab:Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms." OSDI 26.</li>
+    <li>Gao, Wei, et al. "RollArt: Disaggregated Multi-Task Agentic RL Training at Scale." OSDI 26.</li>
+    <p><b>Student Presentation:</b></p>
+    <li>Fang, Taosong, et al. "Flashagents: Accelerating multi-agent llm systems via streaming prefill overlap." MLSys 26.</li>
+    <li>Xiang, Dawei, et al. "LLM-as-Scheduler: Agentic Workflow Dynamic Scheduling." ACL 26.</li>
+    <li>Liu, Shiyi, et al. "AIMS: Cost-Efficient LLM-Based Agent Deployment in Hybrid Cloud-Edge Environments." EuroSys 26.</li>
+
   </ul>
 
 
